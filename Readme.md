@@ -19,6 +19,10 @@ This is a simple React meme generator application that allows users to create me
 
 - **React:** The application is built using the React library, allowing for the efficient and dynamic rendering of components.
 
+## Check It Out
+
+Visit the live [Meme Generator](https://memegen-react.netlify.app/)  to explore its features and functionality.
+
 ## How to Contribute
 
 If you'd like to contribute to the development of this meme generator, feel free to fork the repository and submit a pull request.
