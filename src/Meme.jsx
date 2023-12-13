@@ -47,22 +47,34 @@ export default function Meme() {
   return (
     <main>
       <div className="form">
-        <input
-          type="text"
-          placeholder="Top text"
-          className="form--input"
-          name="topText"
-          value={meme.topText}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          placeholder="Bottom text"
-          className="form--input"
-          name="bottomText"
-          value={meme.bottomText}
-          onChange={handleChange}
-        />
+        <div>
+          <label className="form--label" htmlFor="topText">
+            Top text
+          </label>
+          <input
+            type="text"
+            placeholder="One Does Not Simply"
+            className="form--input"
+            name="topText"
+            id="topText"
+            value={meme.topText}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label className="form--label" htmlFor="bottomText">
+            Bottom text
+          </label>
+          <input
+            type="text"
+            placeholder="Walk Into Mordor"
+            className="form--input"
+            name="bottomText"
+            id="bottomText"
+            value={meme.bottomText}
+            onChange={handleChange}
+          />
+        </div>
         <button className="form--button" onClick={getMemeImage}>
           Get a new meme image 🖼️
         </button>
