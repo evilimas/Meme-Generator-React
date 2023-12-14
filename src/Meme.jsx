@@ -53,7 +53,7 @@ export default function Meme() {
           </label>
           <input
             type="text"
-            placeholder="One Does Not Simply"
+            placeholder="One does not simply"
             className="form--input"
             name="topText"
             id="topText"
@@ -67,7 +67,7 @@ export default function Meme() {
           </label>
           <input
             type="text"
-            placeholder="Walk Into Mordor"
+            placeholder="Walk into mordor"
             className="form--input"
             name="bottomText"
             id="bottomText"
